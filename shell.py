@@ -10,6 +10,9 @@ while True:
 
     if ( text == 'devinfo' ):
         print('Brahma Keerthi H S\nComputer Science Student\n')
+    if ( text == 'help' ):
+        print('1. To perform operations >> 3 * 2 .....\n2. To create variables >> get a = 2\n3. Comparition operators >> ?= equals to, != not equals to...\n4. If-else blocks >> if a < b do get a = a + 1 elif a ?= b do get a = a + 2 else do b = b + 1\n5. While loop >> while a < b do get a = a + 2\n6. To get devloper details >> devinfo\n')
+
 
     tokenizer = Lexer(text)
     tokens = tokenizer.tokenize()
