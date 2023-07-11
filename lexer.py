@@ -1,6 +1,6 @@
 from token import Integer, Float, Operation, Declaration, Variable, Boolean, Comparison, Reserved
 
-# make varname = 50
+# get varname = 50
 
 class Lexer:
     # while <expr> do <statement>
